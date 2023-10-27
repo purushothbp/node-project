@@ -1,0 +1,28 @@
+Specific post:
+{
+  post(id: 1) {
+    id
+    title
+    body
+  }
+}
+
+All posts:
+{
+  posts {
+    id
+    title
+    body
+  }
+}
+
+
+
+Search:
+{
+  searchPosts(query: "example") {
+    id
+    title
+    body
+  }
+}
