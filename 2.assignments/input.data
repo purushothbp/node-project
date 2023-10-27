@@ -1,0 +1,12 @@
+
+
+  query getSingleUser(id:Int!){
+    users(id:$id){
+        name
+        villageName
+    }
+  }
+
+  Query variables{
+    "id":1
+  }
